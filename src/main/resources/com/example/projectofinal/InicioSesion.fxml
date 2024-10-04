@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectofinal.Controladores.InicioSesionController">
+   <children>
+      <Button fx:id="btn" layoutX="195.0" layoutY="205.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="210.0" style="-fx-background-color: #ebe4ad;" text="Iniciar Sesión" />
+      <TextField fx:id="usutxt" layoutX="195.0" layoutY="98.0" prefHeight="40.0" prefWidth="210.0" promptText="usuario" />
+      <PasswordField fx:id="psw" layoutX="195.0" layoutY="150.0" prefHeight="40.0" prefWidth="210.0" promptText="contraseña" />
+      <Label layoutX="119.0" layoutY="28.0" lineSpacing="1.0" prefHeight="60.0" prefWidth="362.0" text="INICIA SESIÓN PARA CONTINUAR" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" underline="true" wrapText="true">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="labeloculta" layoutX="44.0" layoutY="205.0" prefHeight="25.0" prefWidth="300.0" text="Usuario o contraseña incorrectos" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" visible="false" wrapText="true">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Polygon?>
+
+
+<AnchorPane fx:controller="com.example.projectofinal.Controladores.ActividadesController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="205.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ListView fx:id="lista" editable="true" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Polygon fill="#8d7e0c" layoutX="-1.0" layoutY="419.0" points="1.0, -19.0, 57.0, -19.0, 0.0, -60.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</AnchorPane>

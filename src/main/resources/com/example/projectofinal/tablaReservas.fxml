@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="871.0" prefWidth="1326.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectofinal.Controladores.ReservaController">
+   <children>
+      <Button fx:id="atras" mnemonicParsing="false" text="&lt;--" />
+      <Button fx:id="actualizar" layoutX="84.0" layoutY="36.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="193.0" text="Actualizar" />
+      <GridPane fx:id="myGrid" alignment="CENTER" cacheHint="QUALITY" gridLinesVisible="true" hgap="1.0" layoutX="84.0" layoutY="92.0" prefHeight="718.0" prefWidth="1172.0" vgap="1.0">
+         <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" />
+            <ColumnConstraints />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints vgrow="SOMETIMES" />
+            <RowConstraints vgrow="SOMETIMES" />
+            <RowConstraints vgrow="SOMETIMES" />
+            <RowConstraints vgrow="SOMETIMES" />
+            <RowConstraints vgrow="SOMETIMES" />
+            <RowConstraints vgrow="SOMETIMES" />
+            <RowConstraints vgrow="SOMETIMES" />
+            <RowConstraints vgrow="SOMETIMES" />
+            <RowConstraints vgrow="SOMETIMES" />
+            <RowConstraints vgrow="SOMETIMES" />
+            <RowConstraints />
+         </rowConstraints>
+
+            <Label alignment="CENTER" prefHeight="78.0" prefWidth="229.0" style="-fx-background-color: white;" text="LUNES" textAlignment="CENTER" textFill="#8d7e0c" GridPane.columnIndex="1">
+               <font>
+                  <Font name="Tlwg Mono Bold Oblique" size="31.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="78.0" prefWidth="229.0" style="-fx-background-color: white;" text="MARTES" textAlignment="CENTER" textFill="#8d7e0c" GridPane.columnIndex="2">
+               <font>
+                  <Font name="Tlwg Mono Bold Oblique" size="31.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="78.0" prefWidth="229.0" style="-fx-background-color: white;" text="MIERCOLES" textAlignment="CENTER" textFill="#8d7e0c" GridPane.columnIndex="3">
+               <font>
+                  <Font name="Tlwg Mono Bold Oblique" size="31.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="78.0" prefWidth="229.0" style="-fx-background-color: white;" text="JUEVES" textAlignment="CENTER" textFill="#8d7e0c" GridPane.columnIndex="4">
+               <font>
+                  <Font name="Tlwg Mono Bold Oblique" size="31.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="78.0" prefWidth="229.0" style="-fx-background-color: white;" text="VIERNES" textAlignment="CENTER" textFill="#8d7e0c" GridPane.columnIndex="5">
+               <font>
+                  <Font name="Tlwg Mono Bold Oblique" size="31.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="78.0" prefWidth="229.0" style="-fx-background-color: white;" text="08:00" textAlignment="CENTER" textFill="#8d7e0c" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Tlwg Mono Bold Oblique" size="31.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="78.0" prefWidth="229.0" style="-fx-background-color: white;" text="09:00" textAlignment="CENTER" textFill="#8d7e0c" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Tlwg Mono Bold Oblique" size="31.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="78.0" prefWidth="229.0" style="-fx-background-color: white;" text="10:00" textAlignment="CENTER" textFill="#8d7e0c" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Tlwg Mono Bold Oblique" size="31.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="78.0" prefWidth="229.0" style="-fx-background-color: white;" text="11:00" textAlignment="CENTER" textFill="#8d7e0c" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Tlwg Mono Bold Oblique" size="31.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="78.0" prefWidth="229.0" style="-fx-background-color: white;" text="12:00" textAlignment="CENTER" textFill="#8d7e0c" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Tlwg Mono Bold Oblique" size="31.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="78.0" prefWidth="229.0" style="-fx-background-color: white;" text="13:00" textAlignment="CENTER" textFill="#8d7e0c" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Tlwg Mono Bold Oblique" size="31.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="78.0" prefWidth="229.0" style="-fx-background-color: white;" text="17:00" textAlignment="CENTER" textFill="#8d7e0c" GridPane.rowIndex="7">
+               <font>
+                  <Font name="Tlwg Mono Bold Oblique" size="31.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="78.0" prefWidth="229.0" style="-fx-background-color: white;" text="18:00" textAlignment="CENTER" textFill="#8d7e0c" GridPane.rowIndex="8">
+               <font>
+                  <Font name="Tlwg Mono Bold Oblique" size="31.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="78.0" prefWidth="229.0" style="-fx-background-color: white;" text="19:00" textAlignment="CENTER" textFill="#8d7e0c" GridPane.rowIndex="9">
+               <font>
+                  <Font name="Tlwg Mono Bold Oblique" size="31.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="78.0" prefWidth="229.0" style="-fx-background-color: white;" text="20:00" textAlignment="CENTER" textFill="#8d7e0c" GridPane.rowIndex="10">
+               <font>
+                  <Font name="Tlwg Mono Bold Oblique" size="31.0" />
+               </font>
+            </Label>
+            <Label fx:id="act" alignment="CENTER" prefHeight="78.0" prefWidth="229.0" style="-fx-background-color: white;" text="ACTIVIDAD" textAlignment="CENTER" textFill="#8d7e0c">
+               <font>
+                  <Font name="Tlwg Mono Bold Oblique" size="31.0" />
+               </font>
+            </Label>
+
+         <padding>
+            <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+         </padding>
+      </GridPane>
+      <Button fx:id="asignar" layoutX="1060.0" layoutY="817.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="193.0" text="Asignar personal" />
+      <ComboBox fx:id="combo" layoutX="889.0" layoutY="817.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

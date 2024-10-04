@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectofinal.Controladores.InicioController">
+   <children>
+      <ImageView fx:id="img" fitHeight="500.0" fitWidth="900.0" layoutX="-81.0" layoutY="-20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../11221.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="auxbtn" disable="true" layoutX="111.0" layoutY="186.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="139.0" text="SALIR" visible="false" />
+
+   </children>
+</AnchorPane>

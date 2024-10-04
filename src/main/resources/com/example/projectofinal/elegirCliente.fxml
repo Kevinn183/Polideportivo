@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="196.0" prefWidth="362.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectofinal.Controladores.ElegirClienteController">
+   <children>
+      <Text layoutX="68.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Para que cliente quieres reservar?" wrappingWidth="227.0" />
+      <TextField fx:id="clientetxt" layoutX="68.0" layoutY="86.0" prefHeight="24.0" prefWidth="227.0" />
+      <Button fx:id="buscarbtn" layoutX="233.0" layoutY="123.0" mnemonicParsing="false" text="Buscar" />
+      <Label fx:id="labelOculta" layoutX="148.0" layoutY="160.0" prefHeight="16.0" prefWidth="147.0" text="Este cliente no existe" textFill="RED" visible="false" />
+      <Button fx:id="atras" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="&lt;--" />
+   </children>
+</Pane>

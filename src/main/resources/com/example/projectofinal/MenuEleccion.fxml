@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectofinal.Controladores.MenuController">
+   <children>
+      <Button fx:id="calbtn" layoutX="171.0" layoutY="22.0" mnemonicParsing="false" prefHeight="71.0" prefWidth="259.0" text="CALENDARIO" />
+      <Button fx:id="regbtn" layoutX="171.0" layoutY="115.0" mnemonicParsing="false" prefHeight="71.0" prefWidth="259.0" text="REGISTRAR" />
+      <Button fx:id="salirbtn" layoutX="171.0" layoutY="206.0" mnemonicParsing="false" prefHeight="71.0" prefWidth="259.0" text="SALIR" />
+   </children>
+</Pane>

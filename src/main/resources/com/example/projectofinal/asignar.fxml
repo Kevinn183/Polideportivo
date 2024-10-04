@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectofinal.Controladores.AsignarController">
+   <children>
+      <ListView fx:id="disponibles" layoutX="33.0" layoutY="100.0" prefHeight="200.0" prefWidth="221.0" />
+      <ListView fx:id="asignadas" layoutX="348.0" layoutY="100.0" prefHeight="200.0" prefWidth="221.0" />
+      <Button fx:id="asignar" layoutX="348.0" layoutY="314.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="221.0" text="ASIGNAR" />
+      <Text layoutX="33.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Actividades disponibles" textAlignment="CENTER" wrappingWidth="221.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="348.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Actividades asignadas" textAlignment="CENTER" wrappingWidth="221.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Button fx:id="atras" layoutX="14.0" layoutY="17.0" mnemonicParsing="false" text="&lt;--" />
+      <Button fx:id="cancelar" layoutX="34.0" layoutY="318.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="221.0" text="CANCELAR" />
+   </children>
+</AnchorPane>
